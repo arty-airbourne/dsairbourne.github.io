@@ -1,6 +1,5 @@
 ---
 layout: post
-title: "Test Page"
 permalink: /test/
 ---
 
