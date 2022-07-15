@@ -1,6 +1,8 @@
+---
 layout: page
 title: "Test Page"
 permalink: /test/
+---
 
 Welcome to my test page
 =======================
