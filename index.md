@@ -30,7 +30,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anthony-folley/dsairbourne.github.io/settings/pages). The name of this them![IMG_0498](https://github.com/desariah-airbourne/dsairbourne.github.io/assets/82331958/3454b000-fc96-4d2a-a529-db68af1bcc99)
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anthony-folley/dsairbourne.github.io/settings/pages). The name of this them!
 e is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
