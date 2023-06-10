@@ -42,4 +42,28 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 test 
 
-![https://github.com/desariah-airbourne/dsairbourne.github.io/blob/Xailier-image-test/IMG_0498.jpeg]
+![IMG_0498](https://github.com/desariah-airbourne/dsairbourne.github.io/assets/82331958/3454b000-fc96-4d2a-a529-db68af1bcc99)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
