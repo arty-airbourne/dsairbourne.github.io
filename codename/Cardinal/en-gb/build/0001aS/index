@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h1>Documents For Project Cardinal Build 0001a STABLE</h1>
+<div>
+    <h2>KDE DOCS:</h2>
+    <div>
+        <div>
+            <div><h4>Introduction</h4></div>
+            <div>These release notes for Ubuntu 22.10 (Kinetic Kudu) provide an overview of the release and document the known issues with Ubuntu and its flavours.</div>
+        </div>
+        <div>
+            <div><h4>Support lifespan</h4></div>
+            <div>Ubuntu 22.10 will be supported for 9 months until July 2023. If you need Long Term Support, it is recommended you use <a href="https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/">Ubuntu 22.04 LTS</a> instead.</div>
+        </div>
+        <div><h3>New features in 22.10</h3></div>
+        <div><h4>Updated Packages</h4></div>
+        <div><h4>Linux kernel</h4></div>
+        <div>Ubuntu 22.10 is shipped with the new 5.19 Linux kernel that brings the following (most relevant) features (in addition to many other new features, new drivers, improvements and fixes):
+
+            - The new futex_waitv() syscall that can speed up games by letting them wait for multiple futexes with a single system call.
+            - Support in the task scheduler for CPU clusters that share L2/L3 cache (spreading tasks between clusters will bring more memory bandwidth and decrease cache contention).
+            - Support for Intel® AMX (Advanced Matrix Extensions) instructions.
+            - CO-RE support that makes compiled BPF programs more portable.
+            - A faster random number generator (entropy extractor switched from SHA1 to BLAKE2s).
+            - Support for proactive reclaim in memory control groups.
+            - Support for Intel® Trust Domain Extensions (TDX).
+        </div>
+        <div><h4>systemd v251.4</h4></div>
+        <div>The init system was updated to systemd v251.4. Please refer to the upstream changelog 283 for more information about individual features.</div>
+        <div>
+        </div>
+</div>
+</div>
+<div>
+    
+</div>
+
+
+
+</body>
+
+</html>
