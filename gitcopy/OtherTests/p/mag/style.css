@@ -15,7 +15,7 @@ body {
     display: inline-block;
     height: 40.0%;
     width: 25.2%;
-    color:gainsboro;
+    color:rgb(44, 44, 44);
   }
 }
 
@@ -47,6 +47,7 @@ img {
 }
 /* Add a black background color to the top navigation */
 .topnav {
+    font-family: arial, sans-serif;
     z-index: 99;
     position: fixed;
     top: 0;
