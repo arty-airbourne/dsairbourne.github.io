@@ -1,4 +1,6 @@
-
+body {
+  background-color: #232323;
+}
 
  .scrolling-wrapper {
   overflow-x: scroll;
@@ -76,8 +78,7 @@ img {
     color: white;
   }
   .containerA {
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     z-index: 1;
     position: relative;
     text-align: center;
