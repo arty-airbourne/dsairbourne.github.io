@@ -1,3 +1,24 @@
+
+body {
+  background-color: #232323;
+  margin: 0;
+}
+
+ .scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  height: 40.0%;
+
+  .card {
+    display: inline-block;
+    height: 40.0%;
+    width: 25.2%;
+    color:rgb(44, 44, 44);
+  }
+}
+
 img {
     height: 100%;
     width: 100%;
@@ -26,6 +47,7 @@ img {
 }
 /* Add a black background color to the top navigation */
 .topnav {
+    font-family: arial, sans-serif;
     z-index: 99;
     position: fixed;
     top: 0;
@@ -59,8 +81,7 @@ img {
     color: white;
   }
   .containerA {
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     z-index: 1;
     position: relative;
     text-align: center;
@@ -76,3 +97,116 @@ img {
     bottom: 8px;
     left: 16px;
   }
+
+
+  .carouselimg {
+    width: 35%;
+    float:left;
+  }
+  
+  .container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .items {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    animation: carouselAnim 50s infinite alternate linear;
+  }
+  
+  .entry {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    background: #fff;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .items {
+      animation: carouselAnim 35s infinite alternate linear;
+    }
+    
+    @keyframes carouselAnim {
+      from {
+        transform: translate(0, 0);
+      }
+      to {
+        transform: translate(calc(-100% + (2 * 300px)));
+      }
+    }
+  }
+  
+  .entry p {
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  @keyframes carouselAnim {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(calc(-100% + (4 * 300px)));
+    }
+  }
+  
+  .container .faders {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+  }
+  
+  .faders .right,
+  .faders .left {
+    background: linear-gradient(
+      to right,
+      rgba(35, 35, 35, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    z-index: 200;
+  }
+  
+  .faders .right {
+    background: linear-gradient(
+      to left,
+      rgba(35, 35, 35, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    z-index: 200;
+  }
+  .right {
+    right: 0;
+    background: linear-gradient(
+      to left,
+      rgba(245, 245, 245, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .scrolling-wrapper .card {
+      height: 80%;
+      width: 50.449%;
+    }
+    }
+
