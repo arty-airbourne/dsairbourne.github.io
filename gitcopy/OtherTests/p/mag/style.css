@@ -5,12 +5,12 @@
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  height: 10%;
-  width: 6.3%;
-  color:gainsboro;
 
   .card {
     display: inline-block;
+    height: 10%;
+    width: 6.3%;
+    color:gainsboro;
   }
 }
 
