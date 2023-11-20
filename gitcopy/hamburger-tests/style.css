@@ -68,3 +68,11 @@ img {
     background-color: #04AA6D;
     color: white;
   }
+
+
+  @media screen and (max-width: 600px) {
+    .scrolling-wrapper .card {
+      height: 80%;
+      width: 50.449%;
+    }
+    }

@@ -1,8 +1,13 @@
-.scrolling-wrapper {
+
+
+ .scrolling-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+  height: 10%;
+  width: 6.3%;
+  color:gainsboro;
 
   .card {
     display: inline-block;
@@ -87,3 +92,11 @@ img {
     bottom: 8px;
     left: 16px;
   }
+
+  
+  @media screen and (max-width: 600px) {
+    .scrolling-wrapper .card {
+      height: 80%;
+      width: 50.449%;
+    }
+    }
