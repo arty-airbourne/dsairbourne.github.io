@@ -220,6 +220,8 @@ img {
   .Block{
       flex-shrink: 0;
       width: 150px;
+      height: 100px;
+      color:aqua;
   }
   @keyframes carousel{
       0%   { transform: translate3d(0, 0, 0); }
