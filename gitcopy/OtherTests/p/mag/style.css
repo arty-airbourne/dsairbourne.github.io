@@ -204,9 +204,29 @@ img {
   
   
   @media screen and (max-width: 600px) {
-    .scrolling-wrapper .card {
+    .scrolling-wrapper .cardf {
       height: 80%;
       width: 50.449%;
     }
     }
 
+    .cards-wrap {
+      background:blue;
+      height: 180px;
+      overflow-x: hidden;
+    }
+    
+    .card {
+      background: purple;
+      width: 140px;
+      height: 140px;
+      display: inline-block;
+      position:absolute;
+      margin-top: 20px;
+      left: -160px;
+      color: white;
+      font-size:30px;
+      text-align: center;
+      line-height: 70px;
+    }
+    
