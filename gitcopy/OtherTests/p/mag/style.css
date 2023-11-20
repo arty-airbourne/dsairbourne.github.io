@@ -178,6 +178,17 @@ img {
     z-index: 200;
   }
   
+  .faders .right {
+    background: linear-gradient(
+      to left,
+      rgba(245, 245, 245, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    z-index: 200;
+  }
   .right {
     right: 0;
     background: linear-gradient(
