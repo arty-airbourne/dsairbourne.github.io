@@ -171,7 +171,7 @@ img {
   .faders .left {
     background: linear-gradient(
       to right,
-      rgba(245, 245, 245, 1) 0%,
+      rgba(35, 35, 35, 1) 0%,
       rgba(255, 255, 255, 0) 100%
     );
     width: 15%;
@@ -183,7 +183,7 @@ img {
   .faders .right {
     background: linear-gradient(
       to left,
-      rgba(245, 245, 245, 1) 0%,
+      rgba(35, 35, 35, 1) 0%,
       rgba(255, 255, 255, 0) 100%
     );
     width: 15%;
