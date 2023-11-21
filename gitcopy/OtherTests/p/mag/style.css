@@ -130,6 +130,19 @@ img {
     box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
   }
   
+  .entryc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    background: #fff;
+    margin: 100px;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+
   @media only screen and (max-width: 768px) {
     .items {
       animation: carouselAnim 35s infinite alternate linear;
@@ -219,11 +232,15 @@ img {
   }
   .Block{
       flex-shrink: 0;
-      width: 150px;
+      width: 550px;
       height: 100px;
-      color:aqua;
   }
   @keyframes carousel{
       0%   { transform: translate3d(0, 0, 0); }
       100% { transform: translate3d(-20000px, 0, 0); }
+  }
+
+
+  .gap{
+    width: 100px;
   }
