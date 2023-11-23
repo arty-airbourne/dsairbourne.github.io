@@ -231,7 +231,5 @@ img {
     text-transform: uppercase
   }
   .marquee .entry{
-    font-size: 5em;
     white-space: nowrap;
-    text-transform: uppercase
   }
