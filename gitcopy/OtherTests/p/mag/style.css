@@ -4,21 +4,6 @@ body {
   margin: 0;
 }
 
- .scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-  height: 40.0%;
-
-  .card {
-    display: inline-block;
-    height: 40.0%;
-    width: 25.2%;
-    color:rgb(44, 44, 44);
-  }
-}
-
 img {
     height: 100%;
     width: 100%;
@@ -100,7 +85,8 @@ img {
 
 
   .carouselimg {
-    width: 35%;
+    width:40%;
+    margin:0;
     float:left;
   }
   
@@ -110,16 +96,8 @@ img {
     position: relative;
   }
   
-  .items {
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    animation: carouselAnim 50s infinite alternate linear;
-  }
-  
   .entry {
     display: flex;
-    align-items: center;
     flex-direction: column;
     position: relative;
     width: 300px;
@@ -129,53 +107,20 @@ img {
     border-radius: 10px;
     box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
   }
-  
-  .entryc {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    width: 300px;
-    background: #fff;
-    margin: 100px;
-    padding: 100px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
-  }
 
-  @media only screen and (max-width: 768px) {
-    .items {
-      animation: carouselAnim 35s infinite alternate linear;
-    }
-    
-    @keyframes carouselAnim {
-      from {
-        transform: translate(0, 0);
-      }
-      to {
-        transform: translate(calc(-100% + (2 * 300px)));
-      }
-    }
-  }
-  
   .entry p {
-    text-align: center;
     padding: 1em;
+    padding-left: 0.2em;
   }
   
   .name {
     font-weight: bold;
+    font-family: arial, sans-serif;
   }
-  
-  @keyframes carouselAnim {
-    from {
-      transform: translate(0, 0);
-    }
-    to {
-      transform: translate(calc(-100% + (1 * 300px)));
-    }
+  .quote {
+    font-family: arial, sans-serif;
   }
-  
+
   .container .faders {
     width: 100%;
     position: absolute;
@@ -231,9 +176,9 @@ img {
     text-transform: uppercase
   }
 
-  .marquee .entry {
+  .marquee div {
+    white-space: nowrap;
     display: flex;
-    align-items: center;
     flex-direction: column;
     position: relative;
     width: 300px;
@@ -242,4 +187,9 @@ img {
     padding: 0.5em;
     border-radius: 10px;
     box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .quote {
+    white-space: normal;
+    width: 300px;
   }
