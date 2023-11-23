@@ -220,8 +220,8 @@ img {
 
   .marquee {
     overflow: hidden;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 0px solid #000;
+    border-bottom: 0px solid #000;
     display: flex;
   }
   
@@ -229,7 +229,4 @@ img {
     font-size: 5em;
     white-space: nowrap;
     text-transform: uppercase
-  }
-  .marquee .entry{
-    white-space: nowrap;
   }
