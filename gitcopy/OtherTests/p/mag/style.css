@@ -230,3 +230,16 @@ img {
     white-space: nowrap;
     text-transform: uppercase
   }
+
+  .marquee .entry {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    background: #fff;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  }
