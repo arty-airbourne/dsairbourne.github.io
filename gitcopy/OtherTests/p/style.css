@@ -76,3 +76,56 @@ img {
     bottom: 8px;
     left: 16px;
   }
+
+
+  body {
+    background: #1d1d1d;
+    font-family: Asap, sans-serif;
+ }
+  * {
+    box-sizing: border-box;
+ }
+  .nav {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+ }
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    top: 100px;
+    left: 50%;
+    position: absolute;
+ }
+  .viewport {
+    position: absolute;
+    pointer-events: none;
+    width: 90%;
+    width: calc(70% + 8px);
+    top: 100px;
+    left: 50%;
+    border: 2px solid #ddd;
+ }
+  .num {
+    position: absolute;
+    color: #555;
+    color: #fafafa;
+    font-size: 18px;
+    line-height: 1;
+    top: 14px;
+    left: 8px;
+    text-shadow: 1px 1px 0px #555, -1px -1px 0px #555, 1px -1px 0px #555, -1px 1px 0px #555;
+ }
+  .box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+  .boxes {
+    position: relative;
+ }
+  
