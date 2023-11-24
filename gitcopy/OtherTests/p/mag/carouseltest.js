@@ -9,7 +9,7 @@
   
     setInterval(function () {
       firstElement.style.marginLeft = `-${i}px`;
-      if (i > firstElement.clientWidth) {
+      if (i > (firstElement.clientWidth * 10)) {
         i = 0;
       }
       i = i + speed;

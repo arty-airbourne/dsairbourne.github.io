@@ -87,7 +87,13 @@ img {
   .carouselimg {
     width:40%;
     margin:0;
-    float:left;
+    float: left;
+
+  }
+  .carouselimg2 {
+    width:20%;
+    margin:0;
+    float:right;
   }
   
   .container {
@@ -96,7 +102,7 @@ img {
     position: relative;
   }
   
-  .entry {
+/*  .entry {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -107,11 +113,8 @@ img {
     border-radius: 10px;
     box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
   }
+  */
 
-  .entry p {
-    padding: 1em;
-    padding-left: 0.2em;
-  }
   
   .name {
     font-weight: bold;
@@ -176,7 +179,7 @@ img {
     text-transform: uppercase
   }
 
-  .marquee div {
+  .marquee .entry {
     white-space: nowrap;
     display: flex;
     flex-direction: column;
@@ -188,8 +191,24 @@ img {
     border-radius: 10px;
     box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
   }
+  p.quote {
+    padding: 1em;
+    padding-left: 0.2em;
+  }
+
+  p.name {
+    padding: 1em;
+    padding-left: 0.2em;
+  }
 
   .quote {
     white-space: normal;
     width: 300px;
   }
+
+/*    .entry p {
+      padding: 1em;
+      padding-left: 0.2em;
+    }
+
+    */
