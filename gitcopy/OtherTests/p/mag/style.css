@@ -139,7 +139,7 @@ img {
     width: 15%;
     height: 100%;
     position: absolute;
-    z-index: 200;
+    z-index: 50;
   }
   
   .faders .right {
@@ -151,7 +151,7 @@ img {
     width: 15%;
     height: 100%;
     position: absolute;
-    z-index: 200;
+    z-index: 50;
   }
   .right {
     right: 0;
@@ -184,18 +184,20 @@ img {
     flex-direction: column;
     position: relative;
     width: 300px;
-    background: #fff;
+    background: #525252;
     margin: 1em;
     padding: 0.5em;
     border-radius: 10px;
-    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 5px 0px rgb(25 25 25 / 84%);
   }
   p.quote {
     padding: 1em;
     padding-left: 0.2em;
+    color:white;
   }
 
   p.name {
+    color:white;
     padding: 1em;
     padding-left: 0.2em;
   }
@@ -233,7 +235,7 @@ img {
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
-      width:400px;
+      width:300px;
       background: #454444;
     }
     
@@ -273,7 +275,15 @@ img {
 
     .projtext p {
       font-family: arial, sans-serif;
+      font-size: 1vw;
+      margin-right: 15%;
     }
+    .projtext h3 {
+      font-family: arial, sans-serif;
+      font-size: 1.5vw; 
+      margin-right: 15%;  
+    }
+
 
     .projtitle h1 {
       font-family: arial, sans-serif;
@@ -296,3 +306,35 @@ img {
       float: right;
       color: white;
   }
+
+  .projdownarrow {
+    width:50%;
+
+  }
+
+  .projectdesc {
+    height: 39vw;
+}
+.projdownarrow img {
+  height: 10%;
+  width: 10%;
+  margin-left: 45%;
+}
+
+.projtext li {
+  font-size: 1vw;
+  font-family: arial, sans-serif;
+  margin-right: 15%;
+}
+
+.projtext h3 {
+  font-family: arial, sans-serif;
+  font-size: 1vw;
+  margin-right: 15%;
+}
+
+.projimg img {
+  height: 75%;
+  width: 75%;
+  margin-left: 10%;
+}
