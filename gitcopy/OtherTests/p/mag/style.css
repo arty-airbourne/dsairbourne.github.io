@@ -215,7 +215,7 @@ img {
     */
 
     .dropbtn {
-      background-color: #04AA6D;
+      background-color: #31313100;
       color: white;
       padding: 16px;
       font-size: 16px;
@@ -255,6 +255,7 @@ img {
       display: inline-block;
       float: right;
       width:50%;
+      height:42%;
       padding: 21px;
     }
     
@@ -271,7 +272,7 @@ img {
     
     .dropdown:hover .dropdown-content {display: block;}
     
-    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    .dropdown:hover .dropbtn {background-color: #ffffff36;}
 
     .projtext p {
       font-family: arial, sans-serif;
@@ -337,4 +338,19 @@ img {
   height: 75%;
   width: 75%;
   margin-left: 10%;
+}
+
+#link-bj:hover ~ .menuimgproj {
+  background-image: url(https://www.airbourne.xyz/gitcopy/OtherTests/menuassets/bj-menu.png);
+}
+
+#link-c:hover ~ .menuimgproj {
+  background-image: url(https://www.airbourne.xyz/gitcopy/OtherTests/menuassets/c-menu.png);
+}
+#link-mag:hover ~ .menuimgproj {
+  background-image: url(https://www.airbourne.xyz/gitcopy/OtherTests/menuassets/mag-menu.png);
+}
+
+.menuimgproj {
+  background-image: url(https://www.airbourne.xyz/gitcopy/OtherTests/menuassets/logo.png);
 }
