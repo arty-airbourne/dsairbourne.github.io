@@ -279,3 +279,20 @@ img {
       font-family: arial, sans-serif;
       font-weight: bold;
     }
+
+    .projtitle {
+      /* width: 50%; */
+      font-size: 2vw;
+    }  
+
+    .projimg {
+    width: 50%;
+    display: inline-block;
+    }
+    .projdesc {
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      float: right;
+      color: white;
+  }
