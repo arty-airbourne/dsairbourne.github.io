@@ -270,3 +270,12 @@ img {
     .dropdown:hover .dropdown-content {display: block;}
     
     .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+    .projtext p {
+      font-family: arial, sans-serif;
+    }
+
+    .projtitle h1 {
+      font-family: arial, sans-serif;
+      font-weight: bold;
+    }
