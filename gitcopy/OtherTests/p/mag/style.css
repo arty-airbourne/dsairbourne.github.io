@@ -340,8 +340,8 @@ img {
   margin-left: 10%;
 }
 
-#link-bj:hover ~ .menuimgproj {
-  background-image: url(https://www.airbourne.xyz/gitcopy/OtherTests/menuassets/bj-menu.png);
+#link-bj:hover .bjimg {
+    opacity: 1;
 }
 
 #link-c:hover ~ .menuimgproj {
