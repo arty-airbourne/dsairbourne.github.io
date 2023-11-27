@@ -237,6 +237,7 @@ img {
       z-index: 1;
       width:300px;
       background: #454444;
+      padding:10%;
     }
     
     .test {
@@ -248,6 +249,7 @@ img {
     .imgforlinks {
       width:200px;
       display:inline-block;
+      height:132px;
     }
     
     
@@ -338,19 +340,4 @@ img {
   height: 75%;
   width: 75%;
   margin-left: 10%;
-}
-
-#link-bj:hover .bjimg {
-    opacity: 1;
-}
-
-#link-c:hover ~ .menuimgproj {
-  background-image: url(https://www.airbourne.xyz/gitcopy/OtherTests/menuassets/c-menu.png);
-}
-#link-mag:hover ~ .menuimgproj {
-  background-image: url(https://www.airbourne.xyz/gitcopy/OtherTests/menuassets/mag-menu.png);
-}
-
-.menuimgproj {
-  background-image: url(https://www.airbourne.xyz/gitcopy/OtherTests/menuassets/logo.png);
 }
