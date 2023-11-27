@@ -237,7 +237,7 @@ img {
       z-index: 1;
       width:300px;
       background: #454444;
-      padding:10%;
+      padding:10%; 
     }
     
     .test {
@@ -340,4 +340,22 @@ img {
   height: 75%;
   width: 75%;
   margin-left: 10%;
+}
+
+.pagename {
+  width:auto;
+  float:center;
+  height:100%;
+}
+
+.left {
+  width:45%;
+  height:100%;
+  display: inline-block;
+}
+
+.center {
+  width:10%;
+  height:100%;
+  display: inline-block;
 }
