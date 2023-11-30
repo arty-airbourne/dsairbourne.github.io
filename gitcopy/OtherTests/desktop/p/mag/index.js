@@ -24,9 +24,6 @@
   var image = document.getElementById("image");
 var button1 = document.getElementById("link-bj");
 var button2 = document.getElementById("link-mag");
-
-window.addEventListener('keydown', function (e) { if (e.key == "n") { togglNav() }}, false);
-
 var button3 = document.getElementById("link-c");
 buttonVar = false;
 //Now, we need to add an Event Listener to listen when the image gets mouse over.

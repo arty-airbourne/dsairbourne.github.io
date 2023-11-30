@@ -1,6 +1,6 @@
 
 $(window).on('load resize',function(){
     if($(window).width() > 950){
-        window.location = "https://www.airbourne.xyz/gitcopy/OtherTests/p/mag/resizetest1.html"
+        window.location = "https://www.airbourne.xyz/gitcopy/OtherTests/m/p/m/main.html"
     }
 });
