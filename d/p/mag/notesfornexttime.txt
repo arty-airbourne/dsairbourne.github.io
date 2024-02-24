@@ -1,0 +1,28 @@
+basicallY
+
+
+redesign the page for mobile use
+
+make it easy for many to clik
+
+fix resizing
+
+create alt folder:
+
+OtherTests/ :
+
+    d/
+    m/
+
+
+and then e.g 
+
+d/ :
+
+    p/
+    ...html
+    ...js
+    ...png
+    ...css
+    etc.
+

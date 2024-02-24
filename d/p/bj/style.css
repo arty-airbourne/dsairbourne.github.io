@@ -1,0 +1,214 @@
+
+body {
+  background-color: #232323;
+  margin: 0;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+.logo {
+    float: left;
+    height: 23px;
+    width: 23px;
+}
+.logowrap {
+    float: left;
+}
+
+.logogap {
+    float:right;
+    width: 10px;
+}
+.textlogo {
+    float: right;
+}
+
+.buffer {
+    width: 100%;
+    height: 10px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    font-family: arial, sans-serif;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .containerA {
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    font-family: arial, sans-serif;
+    font-size: 8vw;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+
+  .carouselimg {
+    width:40%;
+    margin:0;
+    float: left;
+
+  }
+  .carouselimg2 {
+    width:20%;
+    margin:0;
+    float:right;
+  }
+  
+  .container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+/*  .entry {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    background: #fff;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+  */
+
+  
+  .name {
+    font-weight: bold;
+    font-family: arial, sans-serif;
+  }
+  .quote {
+    font-family: arial, sans-serif;
+  }
+
+  .container .faders {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+  }
+  
+  .faders .right,
+  .faders .left {
+    background: linear-gradient(
+      to right,
+      rgba(35, 35, 35, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    z-index: 200;
+  }
+  
+  .faders .right {
+    background: linear-gradient(
+      to left,
+      rgba(35, 35, 35, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    z-index: 200;
+  }
+  .right {
+    right: 0;
+    background: linear-gradient(
+      to left,
+      rgba(245, 245, 245, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  
+  
+
+
+  .marquee {
+    overflow: hidden;
+    border-top: 0px solid #000;
+    border-bottom: 0px solid #000;
+    display: flex;
+  }
+  
+  .marquee h1{
+    font-size: 5em;
+    white-space: nowrap;
+    text-transform: uppercase
+  }
+
+  .marquee .entry {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    background: #fff;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+  p.quote {
+    padding: 1em;
+    padding-left: 0.2em;
+  }
+
+  p.name {
+    padding: 1em;
+    padding-left: 0.2em;
+  }
+
+  .quote {
+    white-space: normal;
+    width: 300px;
+  }
+
+/*    .entry p {
+      padding: 1em;
+      padding-left: 0.2em;
+    }
+
+    */
