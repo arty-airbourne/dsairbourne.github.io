@@ -48,18 +48,18 @@
 <script> 
 // window.onload = checkWidth();
 function checkWidth() {
-    if((window).width() > 950){
+    if(window.innerWidth > 950){
         window.location = "https://www.airbourne.xyz/d/index.html";
-    } else if((window).width() < 950){
+    } else if(window.innerWidth < 950){
         window.location = "https://www.airbourne.xyz/m/index.html";
     }
 
 }
 
   window.addEventListener("load", function(){
-      if(window.width() > 950){
+      if(window.innerWidth > 950){
           window.location = "https://www.airbourne.xyz/d/index.html";
-      } else if((window).width() < 950){
+      } else if(window.innerWidth < 950){
           window.location = "https://www.airbourne.xyz/m/index.html";
       }
       });
