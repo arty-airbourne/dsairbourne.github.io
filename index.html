@@ -1,7 +1,5 @@
 <!DOCTYPE html> 
 <head> 
-    <link rel="prefetch" href="https:\\www.airbourne.xyz\d\home.html">
-    <link rel="prefetch" href="https:\\www.airbourne.xyz\m\home.html">
     <!-- Preload Logos -->
     <link rel="preload" as="image" href="https:\\www.airbourne.xyz\assets\airbourne-small.jpg">
     <link rel="preload" as="image" href="https:\\www.airbourne.xyz\assets\airbourne-medium.jpg">
@@ -46,5 +44,15 @@
     <!-- end preload  -->
 
 </head>
-<body> <p> did it not redirect ? </p><script src="https:\\www.airbourne.xyz\assests\js\redirectScript.js"></script></body>
+<body> <p> did it not redirect ? </p><script src="https:\\www.airbourne.xyz\assests\js\redirectScript.js" defer></script> 
+<!-- <script> 
+function checkWidth() {
+    if($(window).width() > 950){
+        window.location = "https://www.airbourne.xyz/d/index.html"
+    } else if($(window).width() < 950){
+        window.location = "https://www.airbourne.xyz/m/index.html"
+    }
+
+}
+    </script> --> </body>
 </html>
