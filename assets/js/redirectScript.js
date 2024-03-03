@@ -1,5 +1,3 @@
-window.onload = checkwidth();
-
 function checkwidth() { 
     if($(window).width() > 950) {
         window.location = "https://www.airbourne.xyz/d/index.html";
@@ -8,6 +6,9 @@ function checkwidth() {
     };
 
 };
+
+
+window.onload = checkwidth();
 
 
 $(window).on('load resize',function(){
