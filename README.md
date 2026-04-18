@@ -1,4 +1,6 @@
 
-The AirBourne Website Beta for all those who care.
+2022 Website Building Learning Development
 
-its wip dont judge
+---
+
+This is not updated; and is low priority. Focus shift to git.gay/arty0/HarpyBoot and git.gay/arty0/Cardinal
